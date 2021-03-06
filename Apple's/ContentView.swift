@@ -9,13 +9,29 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack {
+            Text("apple-s")
+                .font(.system(.title, design: .rounded))
+                .fontWeight(.bold)
+            
+            Spacer()
+                .frame(height: 20)
+            
+            Text("inDevelop")
+                .font(.system(.title, design: .rounded))
+                .fontWeight(.bold)
+        }
+        
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        Group {
+            ContentView()
+            
+            ContentView()
+                .environment(\.locale, .init(identifier: "ko"))
+        }
     }
 }
