@@ -36,6 +36,264 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C6ADEEF625FC98DA00042F58 /* Mac */ = {
+			isa = PBXGroup;
+			children = (
+				C6ADEEF825FC98FF00042F58 /* MacBook */,
+				C6ADEEF725FC98F500042F58 /* Mac */,
+			);
+			path = Mac;
+			sourceTree = "<group>";
+		};
+		C6ADEEF725FC98F500042F58 /* Mac */ = {
+			isa = PBXGroup;
+			children = (
+				C6ADEEFF25FC994E00042F58 /* iMac */,
+				C6ADEEFE25FC994600042F58 /* iMac Pro */,
+				C6ADEEFD25FC993A00042F58 /* Mac mini */,
+				C6ADEEFC25FC993200042F58 /* Mac Pro */,
+			);
+			path = Mac;
+			sourceTree = "<group>";
+		};
+		C6ADEEF825FC98FF00042F58 /* MacBook */ = {
+			isa = PBXGroup;
+			children = (
+				C6ADEEFB25FC992700042F58 /* MacBook */,
+				C6ADEEFA25FC991700042F58 /* MacBook Air */,
+				C6ADEEF925FC990700042F58 /* MacBook Pro */,
+			);
+			path = MacBook;
+			sourceTree = "<group>";
+		};
+		C6ADEEF925FC990700042F58 /* MacBook Pro */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "MacBook Pro";
+			sourceTree = "<group>";
+		};
+		C6ADEEFA25FC991700042F58 /* MacBook Air */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "MacBook Air";
+			sourceTree = "<group>";
+		};
+		C6ADEEFB25FC992700042F58 /* MacBook */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MacBook;
+			sourceTree = "<group>";
+		};
+		C6ADEEFC25FC993200042F58 /* Mac Pro */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Mac Pro";
+			sourceTree = "<group>";
+		};
+		C6ADEEFD25FC993A00042F58 /* Mac mini */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Mac mini";
+			sourceTree = "<group>";
+		};
+		C6ADEEFE25FC994600042F58 /* iMac Pro */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "iMac Pro";
+			sourceTree = "<group>";
+		};
+		C6ADEEFF25FC994E00042F58 /* iMac */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iMac;
+			sourceTree = "<group>";
+		};
+		C6ADEF0025FC995500042F58 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				C6ADEF0425FC999900042F58 /* iPad mini */,
+				C6ADEF0325FC998200042F58 /* iPad  */,
+				C6ADEF0225FC997B00042F58 /* iPad Air */,
+				C6ADEF0125FC996C00042F58 /* iPad Pro */,
+			);
+			path = iPad;
+			sourceTree = "<group>";
+		};
+		C6ADEF0125FC996C00042F58 /* iPad Pro */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "iPad Pro";
+			sourceTree = "<group>";
+		};
+		C6ADEF0225FC997B00042F58 /* iPad Air */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "iPad Air";
+			sourceTree = "<group>";
+		};
+		C6ADEF0325FC998200042F58 /* iPad  */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "iPad ";
+			sourceTree = "<group>";
+		};
+		C6ADEF0425FC999900042F58 /* iPad mini */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "iPad mini";
+			sourceTree = "<group>";
+		};
+		C6ADEF0525FC99A100042F58 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iPhone;
+			sourceTree = "<group>";
+		};
+		C6ADEF0625FC99AF00042F58 /* Apple watch */ = {
+			isa = PBXGroup;
+			children = (
+				C6ADEF0C25FC99E900042F58 /* Series 1 */,
+				C6ADEF0B25FC99E400042F58 /* Series 2 */,
+				C6ADEF0A25FC99DF00042F58 /* Series 3 */,
+				C6ADEF0925FC99D800042F58 /* Series 4 */,
+				C6ADEF0825FC99D300042F58 /* Series 5 */,
+				C6ADEF0725FC99C400042F58 /* Series 6 */,
+			);
+			path = "Apple watch";
+			sourceTree = "<group>";
+		};
+		C6ADEF0725FC99C400042F58 /* Series 6 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Series 6";
+			sourceTree = "<group>";
+		};
+		C6ADEF0825FC99D300042F58 /* Series 5 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Series 5";
+			sourceTree = "<group>";
+		};
+		C6ADEF0925FC99D800042F58 /* Series 4 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Series 4";
+			sourceTree = "<group>";
+		};
+		C6ADEF0A25FC99DF00042F58 /* Series 3 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Series 3";
+			sourceTree = "<group>";
+		};
+		C6ADEF0B25FC99E400042F58 /* Series 2 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Series 2";
+			sourceTree = "<group>";
+		};
+		C6ADEF0C25FC99E900042F58 /* Series 1 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Series 1";
+			sourceTree = "<group>";
+		};
+		C6ADEF0D25FC99EE00042F58 /* AirPods */ = {
+			isa = PBXGroup;
+			children = (
+				C6ADEF1025FC9A2900042F58 /* AirPods */,
+				C6ADEF0F25FC9A2300042F58 /* AirPods Pro */,
+				C6ADEF0E25FC9A1B00042F58 /* AirPods Max */,
+			);
+			path = AirPods;
+			sourceTree = "<group>";
+		};
+		C6ADEF0E25FC9A1B00042F58 /* AirPods Max */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "AirPods Max";
+			sourceTree = "<group>";
+		};
+		C6ADEF0F25FC9A2300042F58 /* AirPods Pro */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "AirPods Pro";
+			sourceTree = "<group>";
+		};
+		C6ADEF1025FC9A2900042F58 /* AirPods */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = AirPods;
+			sourceTree = "<group>";
+		};
+		C6ADEF1125FC9A3500042F58 /* iPod */ = {
+			isa = PBXGroup;
+			children = (
+				C6ADEF1625FC9A5C00042F58 /* iPod classic */,
+				C6ADEF1525FC9A5500042F58 /* iPod mini */,
+				C6ADEF1425FC9A4D00042F58 /* iPod shuffle */,
+				C6ADEF1325FC9A4500042F58 /* iPod nano */,
+				C6ADEF1225FC9A3F00042F58 /* iPod touch */,
+			);
+			path = iPod;
+			sourceTree = "<group>";
+		};
+		C6ADEF1225FC9A3F00042F58 /* iPod touch */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "iPod touch";
+			sourceTree = "<group>";
+		};
+		C6ADEF1325FC9A4500042F58 /* iPod nano */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "iPod nano";
+			sourceTree = "<group>";
+		};
+		C6ADEF1425FC9A4D00042F58 /* iPod shuffle */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "iPod shuffle";
+			sourceTree = "<group>";
+		};
+		C6ADEF1525FC9A5500042F58 /* iPod mini */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "iPod mini";
+			sourceTree = "<group>";
+		};
+		C6ADEF1625FC9A5C00042F58 /* iPod classic */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "iPod classic";
+			sourceTree = "<group>";
+		};
 		C6DCC28425F3604C0099BCD1 = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +316,12 @@
 				C6DCC29025F3604C0099BCD1 /* Apple_sApp.swift */,
 				C6DCC29225F3604C0099BCD1 /* ContentView.swift */,
 				C6DCC2A525F362A60099BCD1 /* Localizable.strings */,
+				C6ADEEF625FC98DA00042F58 /* Mac */,
+				C6ADEF0025FC995500042F58 /* iPad */,
+				C6ADEF0525FC99A100042F58 /* iPhone */,
+				C6ADEF0625FC99AF00042F58 /* Apple watch */,
+				C6ADEF0D25FC99EE00042F58 /* AirPods */,
+				C6ADEF1125FC9A3500042F58 /* iPod */,
 				C6DCC29425F3604E0099BCD1 /* Assets.xcassets */,
 				C6DCC29925F3604E0099BCD1 /* Info.plist */,
 				C6DCC29625F3604E0099BCD1 /* Preview Content */,
