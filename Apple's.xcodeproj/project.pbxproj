@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C6705E0B2605DA9700B38A93 /* iPhone.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6705E0A2605DA9700B38A93 /* iPhone.swift */; };
 		C6DCC29125F3604C0099BCD1 /* Apple_sApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DCC29025F3604C0099BCD1 /* Apple_sApp.swift */; };
 		C6DCC29325F3604C0099BCD1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DCC29225F3604C0099BCD1 /* ContentView.swift */; };
 		C6DCC29525F3604E0099BCD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6DCC29425F3604E0099BCD1 /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C6705E0A2605DA9700B38A93 /* iPhone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPhone.swift; sourceTree = "<group>"; };
 		C6DCC28D25F3604C0099BCD1 /* Apple's.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Apple's.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6DCC29025F3604C0099BCD1 /* Apple_sApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apple_sApp.swift; sourceTree = "<group>"; };
 		C6DCC29225F3604C0099BCD1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -157,6 +159,7 @@
 		C6ADEF0525FC99A100042F58 /* iPhone */ = {
 			isa = PBXGroup;
 			children = (
+				C6705E0A2605DA9700B38A93 /* iPhone.swift */,
 			);
 			path = iPhone;
 			sourceTree = "<group>";
@@ -409,6 +412,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C6DCC29325F3604C0099BCD1 /* ContentView.swift in Sources */,
+				C6705E0B2605DA9700B38A93 /* iPhone.swift in Sources */,
 				C6DCC29125F3604C0099BCD1 /* Apple_sApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
