@@ -9,19 +9,22 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Text("apple-s")
-                .font(.system(.title, design: .rounded))
-                .fontWeight(.bold)
-            
-            Spacer()
-                .frame(height: 20)
-            
-            Text("inDevelop")
-                .font(.system(.title, design: .rounded))
-                .fontWeight(.bold)
+        NavigationView {
+            List {
+                link(icon: "iphone", text: "iPhone", destination: iPhoneHome())
+            }
+            .navigationTitle("Home")
+        } // NavigationView
+    }
+    private func link<Destination: View>(icon: String, text: String, destination: Destination) -> some View {
+        return NavigationLink(destination: destination) {
+            HStack {
+                Image(systemName: icon)
+                    .font(.body)
+                Text(text)
+                    .font(.body)
+            }
         }
-        
     }
 }
 

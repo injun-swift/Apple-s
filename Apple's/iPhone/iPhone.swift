@@ -53,8 +53,13 @@ struct iPhone : View {
                 
                 Spacer()
                     .frame(height: 200)
+                
                 Text("source")
                     .font(.system(.footnote, design: .rounded))
+                    .foregroundColor(Color.secondary)
+                
+                Spacer()
+                    .frame(height: 25)
                 
             } // ScrollView
             .frame(width: geometry.size.width, height: geometry.size.height, alignment: .center)
