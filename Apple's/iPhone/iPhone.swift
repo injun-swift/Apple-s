@@ -28,25 +28,23 @@ struct iPhone : View {
                     
                 } // Product Overview VStack
                 
-                Divider()
-                    .frame(width: geometry.size.width / 1.06)
-                
                 VStack(alignment: .leading, spacing: 10) {
                     
-                    VStack(alignment: .leading, spacing: 10) {
-                        Divider()
-                            .opacity(0)
+                    Divider()
+                        .frame(width: geometry.size.width / 1.06)
+                    
+                    Group {
                         Text("Size & Weight")
                             .font(.system(.headline, design: .rounded))
-                        Text("iP1H")
+                        Text("iPhone Height")
                             .font(.system(.body, design: .rounded))
-                        Text("iP1Wi")
+                        Text("iPhone Width")
                             .font(.system(.body, design: .rounded))
-                        Text("iP1D")
+                        Text("iPhone Depth")
                             .font(.system(.body, design: .rounded))
-                        Text("iP1We")
+                        Text("iPhone Weight")
                             .font(.system(.body, design: .rounded))
-                    } // Size & Weight VStack
+                    } // Size & Weight Group
                     
                 } // About Product VStack
                 .padding()
@@ -73,6 +71,7 @@ struct iPhone_Previews: PreviewProvider {
         iPhone()
         
         iPhone()
+            .previewDevice("iPhone SE (2nd generation)")
             .environment(\.locale, .init(identifier: "ko"))
         
 //        iPhone()

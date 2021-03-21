@@ -9,6 +9,16 @@
 /* Begin PBXBuildFile section */
 		C6705E0B2605DA9700B38A93 /* iPhone.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6705E0A2605DA9700B38A93 /* iPhone.swift */; };
 		C6A7521B26062AAD0066D211 /* iPhone home.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A7521A26062AAD0066D211 /* iPhone home.swift */; };
+		C6D1C60C260743E200FEE8F2 /* Mac Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D1C60B260743E200FEE8F2 /* Mac Home.swift */; };
+		C6D1C611260746D800FEE8F2 /* iPad Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D1C610260746D800FEE8F2 /* iPad Home.swift */; };
+		C6D1C614260747AF00FEE8F2 /* Apple Watch Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D1C613260747AF00FEE8F2 /* Apple Watch Home.swift */; };
+		C6D1C61B260748FC00FEE8F2 /* AirPods Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D1C61A260748FC00FEE8F2 /* AirPods Home.swift */; };
+		C6D1C61F260749C100FEE8F2 /* iPod Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D1C61E260749C100FEE8F2 /* iPod Home.swift */; };
+		C6D1C62326074A4400FEE8F2 /* Accessories Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D1C62226074A4400FEE8F2 /* Accessories Home.swift */; };
+		C6D1C62826074A9300FEE8F2 /* Display Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D1C62726074A9300FEE8F2 /* Display Home.swift */; };
+		C6D1C62B26074AE700FEE8F2 /* Apple Silicon Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D1C62A26074AE700FEE8F2 /* Apple Silicon Home.swift */; };
+		C6D1C62F26074B3400FEE8F2 /* OS Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D1C62E26074B3400FEE8F2 /* OS Home.swift */; };
+		C6D1C63526074C9800FEE8F2 /* Apple TV Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D1C63426074C9800FEE8F2 /* Apple TV Home.swift */; };
 		C6DCC29125F3604C0099BCD1 /* Apple_sApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DCC29025F3604C0099BCD1 /* Apple_sApp.swift */; };
 		C6DCC29325F3604C0099BCD1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DCC29225F3604C0099BCD1 /* ContentView.swift */; };
 		C6DCC29525F3604E0099BCD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6DCC29425F3604E0099BCD1 /* Assets.xcassets */; };
@@ -19,6 +29,16 @@
 /* Begin PBXFileReference section */
 		C6705E0A2605DA9700B38A93 /* iPhone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPhone.swift; sourceTree = "<group>"; };
 		C6A7521A26062AAD0066D211 /* iPhone home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "iPhone home.swift"; sourceTree = "<group>"; };
+		C6D1C60B260743E200FEE8F2 /* Mac Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Mac Home.swift"; sourceTree = "<group>"; };
+		C6D1C610260746D800FEE8F2 /* iPad Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "iPad Home.swift"; sourceTree = "<group>"; };
+		C6D1C613260747AF00FEE8F2 /* Apple Watch Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Apple Watch Home.swift"; sourceTree = "<group>"; };
+		C6D1C61A260748FC00FEE8F2 /* AirPods Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AirPods Home.swift"; sourceTree = "<group>"; };
+		C6D1C61E260749C100FEE8F2 /* iPod Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "iPod Home.swift"; sourceTree = "<group>"; };
+		C6D1C62226074A4400FEE8F2 /* Accessories Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Accessories Home.swift"; sourceTree = "<group>"; };
+		C6D1C62726074A9300FEE8F2 /* Display Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Display Home.swift"; sourceTree = "<group>"; };
+		C6D1C62A26074AE700FEE8F2 /* Apple Silicon Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Apple Silicon Home.swift"; sourceTree = "<group>"; };
+		C6D1C62E26074B3400FEE8F2 /* OS Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OS Home.swift"; sourceTree = "<group>"; };
+		C6D1C63426074C9800FEE8F2 /* Apple TV Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Apple TV Home.swift"; sourceTree = "<group>"; };
 		C6DCC28D25F3604C0099BCD1 /* Apple's.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Apple's.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6DCC29025F3604C0099BCD1 /* Apple_sApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apple_sApp.swift; sourceTree = "<group>"; };
 		C6DCC29225F3604C0099BCD1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -43,7 +63,9 @@
 		C6ADEEF625FC98DA00042F58 /* Mac */ = {
 			isa = PBXGroup;
 			children = (
+				C6D1C60B260743E200FEE8F2 /* Mac Home.swift */,
 				C6ADEEF825FC98FF00042F58 /* MacBook */,
+				C6D1C60A260743BB00FEE8F2 /* iMac */,
 				C6ADEEF725FC98F500042F58 /* Mac */,
 			);
 			path = Mac;
@@ -52,8 +74,6 @@
 		C6ADEEF725FC98F500042F58 /* Mac */ = {
 			isa = PBXGroup;
 			children = (
-				C6ADEEFF25FC994E00042F58 /* iMac */,
-				C6ADEEFE25FC994600042F58 /* iMac Pro */,
 				C6ADEEFD25FC993A00042F58 /* Mac mini */,
 				C6ADEEFC25FC993200042F58 /* Mac Pro */,
 			);
@@ -122,6 +142,7 @@
 		C6ADEF0025FC995500042F58 /* iPad */ = {
 			isa = PBXGroup;
 			children = (
+				C6D1C610260746D800FEE8F2 /* iPad Home.swift */,
 				C6ADEF0425FC999900042F58 /* iPad mini */,
 				C6ADEF0325FC998200042F58 /* iPad  */,
 				C6ADEF0225FC997B00042F58 /* iPad Air */,
@@ -161,15 +182,16 @@
 		C6ADEF0525FC99A100042F58 /* iPhone */ = {
 			isa = PBXGroup;
 			children = (
-				C6705E0A2605DA9700B38A93 /* iPhone.swift */,
 				C6A7521A26062AAD0066D211 /* iPhone home.swift */,
+				C6705E0A2605DA9700B38A93 /* iPhone.swift */,
 			);
 			path = iPhone;
 			sourceTree = "<group>";
 		};
-		C6ADEF0625FC99AF00042F58 /* Apple watch */ = {
+		C6ADEF0625FC99AF00042F58 /* Apple Watch */ = {
 			isa = PBXGroup;
 			children = (
+				C6D1C613260747AF00FEE8F2 /* Apple Watch Home.swift */,
 				C6ADEF0C25FC99E900042F58 /* Series 1 */,
 				C6ADEF0B25FC99E400042F58 /* Series 2 */,
 				C6ADEF0A25FC99DF00042F58 /* Series 3 */,
@@ -177,7 +199,7 @@
 				C6ADEF0825FC99D300042F58 /* Series 5 */,
 				C6ADEF0725FC99C400042F58 /* Series 6 */,
 			);
-			path = "Apple watch";
+			path = "Apple Watch";
 			sourceTree = "<group>";
 		};
 		C6ADEF0725FC99C400042F58 /* Series 6 */ = {
@@ -225,6 +247,7 @@
 		C6ADEF0D25FC99EE00042F58 /* AirPods */ = {
 			isa = PBXGroup;
 			children = (
+				C6D1C61A260748FC00FEE8F2 /* AirPods Home.swift */,
 				C6ADEF1025FC9A2900042F58 /* AirPods */,
 				C6ADEF0F25FC9A2300042F58 /* AirPods Pro */,
 				C6ADEF0E25FC9A1B00042F58 /* AirPods Max */,
@@ -256,6 +279,7 @@
 		C6ADEF1125FC9A3500042F58 /* iPod */ = {
 			isa = PBXGroup;
 			children = (
+				C6D1C61E260749C100FEE8F2 /* iPod Home.swift */,
 				C6ADEF1625FC9A5C00042F58 /* iPod classic */,
 				C6ADEF1525FC9A5500042F58 /* iPod mini */,
 				C6ADEF1425FC9A4D00042F58 /* iPod shuffle */,
@@ -300,6 +324,207 @@
 			path = "iPod classic";
 			sourceTree = "<group>";
 		};
+		C6D1C5F32607412B00FEE8F2 /* Apple Silicon */ = {
+			isa = PBXGroup;
+			children = (
+				C6D1C62A26074AE700FEE8F2 /* Apple Silicon Home.swift */,
+				C6D1C5FA260741B300FEE8F2 /* A */,
+				C6D1C5F9260741AA00FEE8F2 /* M */,
+				C6D1C5F8260741A500FEE8F2 /* S */,
+				C6D1C5F72607419B00FEE8F2 /* W */,
+				C6D1C5F62607419400FEE8F2 /* H */,
+				C6D1C5F52607418C00FEE8F2 /* T */,
+				C6D1C5F42607418300FEE8F2 /* U */,
+			);
+			path = "Apple Silicon";
+			sourceTree = "<group>";
+		};
+		C6D1C5F42607418300FEE8F2 /* U */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = U;
+			sourceTree = "<group>";
+		};
+		C6D1C5F52607418C00FEE8F2 /* T */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = T;
+			sourceTree = "<group>";
+		};
+		C6D1C5F62607419400FEE8F2 /* H */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = H;
+			sourceTree = "<group>";
+		};
+		C6D1C5F72607419B00FEE8F2 /* W */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = W;
+			sourceTree = "<group>";
+		};
+		C6D1C5F8260741A500FEE8F2 /* S */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = S;
+			sourceTree = "<group>";
+		};
+		C6D1C5F9260741AA00FEE8F2 /* M */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = M;
+			sourceTree = "<group>";
+		};
+		C6D1C5FA260741B300FEE8F2 /* A */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = A;
+			sourceTree = "<group>";
+		};
+		C6D1C5FC260741CD00FEE8F2 /* Smart */ = {
+			isa = PBXGroup;
+			children = (
+				C6D1C6052607430200FEE8F2 /* Smart Keyboard Folio */,
+				C6D1C5FD260741E300FEE8F2 /* Smart Keyboard */,
+			);
+			path = Smart;
+			sourceTree = "<group>";
+		};
+		C6D1C5FD260741E300FEE8F2 /* Smart Keyboard */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Smart Keyboard";
+			sourceTree = "<group>";
+		};
+		C6D1C5FE2607426000FEE8F2 /* OS */ = {
+			isa = PBXGroup;
+			children = (
+				C6D1C62E26074B3400FEE8F2 /* OS Home.swift */,
+				C6D1C6032607429000FEE8F2 /* macOS */,
+				C6D1C6022607428A00FEE8F2 /* iPadOS */,
+				C6D1C6012607428300FEE8F2 /* iOS */,
+				C6D1C6002607427C00FEE8F2 /* watchOS */,
+				C6D1C5FF2607427300FEE8F2 /* tvOS */,
+			);
+			path = OS;
+			sourceTree = "<group>";
+		};
+		C6D1C5FF2607427300FEE8F2 /* tvOS */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = tvOS;
+			sourceTree = "<group>";
+		};
+		C6D1C6002607427C00FEE8F2 /* watchOS */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = watchOS;
+			sourceTree = "<group>";
+		};
+		C6D1C6012607428300FEE8F2 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		C6D1C6022607428A00FEE8F2 /* iPadOS */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iPadOS;
+			sourceTree = "<group>";
+		};
+		C6D1C6032607429000FEE8F2 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		C6D1C604260742B900FEE8F2 /* Display */ = {
+			isa = PBXGroup;
+			children = (
+				C6D1C62726074A9300FEE8F2 /* Display Home.swift */,
+			);
+			path = Display;
+			sourceTree = "<group>";
+		};
+		C6D1C6052607430200FEE8F2 /* Smart Keyboard Folio */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Smart Keyboard Folio";
+			sourceTree = "<group>";
+		};
+		C6D1C6062607435C00FEE8F2 /* Magic */ = {
+			isa = PBXGroup;
+			children = (
+				C6D1C6092607438A00FEE8F2 /* Magic Keyboard */,
+				C6D1C6082607437E00FEE8F2 /* Magic Trackpad */,
+				C6D1C6072607437400FEE8F2 /* Magic Mouse */,
+			);
+			path = Magic;
+			sourceTree = "<group>";
+		};
+		C6D1C6072607437400FEE8F2 /* Magic Mouse */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Magic Mouse";
+			sourceTree = "<group>";
+		};
+		C6D1C6082607437E00FEE8F2 /* Magic Trackpad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Magic Trackpad";
+			sourceTree = "<group>";
+		};
+		C6D1C6092607438A00FEE8F2 /* Magic Keyboard */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Magic Keyboard";
+			sourceTree = "<group>";
+		};
+		C6D1C60A260743BB00FEE8F2 /* iMac */ = {
+			isa = PBXGroup;
+			children = (
+				C6ADEEFF25FC994E00042F58 /* iMac */,
+				C6ADEEFE25FC994600042F58 /* iMac Pro */,
+			);
+			path = iMac;
+			sourceTree = "<group>";
+		};
+		C6D1C621260749F900FEE8F2 /* Accessories */ = {
+			isa = PBXGroup;
+			children = (
+				C6D1C62226074A4400FEE8F2 /* Accessories Home.swift */,
+				C6D1C6062607435C00FEE8F2 /* Magic */,
+				C6D1C5FC260741CD00FEE8F2 /* Smart */,
+			);
+			path = Accessories;
+			sourceTree = "<group>";
+		};
+		C6D1C63226074C7900FEE8F2 /* Apple TV */ = {
+			isa = PBXGroup;
+			children = (
+				C6D1C63426074C9800FEE8F2 /* Apple TV Home.swift */,
+			);
+			path = "Apple TV";
+			sourceTree = "<group>";
+		};
 		C6DCC28425F3604C0099BCD1 = {
 			isa = PBXGroup;
 			children = (
@@ -325,9 +550,14 @@
 				C6ADEEF625FC98DA00042F58 /* Mac */,
 				C6ADEF0025FC995500042F58 /* iPad */,
 				C6ADEF0525FC99A100042F58 /* iPhone */,
-				C6ADEF0625FC99AF00042F58 /* Apple watch */,
+				C6ADEF0625FC99AF00042F58 /* Apple Watch */,
+				C6D1C63226074C7900FEE8F2 /* Apple TV */,
 				C6ADEF0D25FC99EE00042F58 /* AirPods */,
 				C6ADEF1125FC9A3500042F58 /* iPod */,
+				C6D1C621260749F900FEE8F2 /* Accessories */,
+				C6D1C604260742B900FEE8F2 /* Display */,
+				C6D1C5F32607412B00FEE8F2 /* Apple Silicon */,
+				C6D1C5FE2607426000FEE8F2 /* OS */,
 				C6DCC29425F3604E0099BCD1 /* Assets.xcassets */,
 				C6DCC29925F3604E0099BCD1 /* Info.plist */,
 				C6DCC29625F3604E0099BCD1 /* Preview Content */,
@@ -414,10 +644,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6D1C61B260748FC00FEE8F2 /* AirPods Home.swift in Sources */,
 				C6A7521B26062AAD0066D211 /* iPhone home.swift in Sources */,
+				C6D1C614260747AF00FEE8F2 /* Apple Watch Home.swift in Sources */,
+				C6D1C60C260743E200FEE8F2 /* Mac Home.swift in Sources */,
+				C6D1C62326074A4400FEE8F2 /* Accessories Home.swift in Sources */,
+				C6D1C62826074A9300FEE8F2 /* Display Home.swift in Sources */,
 				C6DCC29325F3604C0099BCD1 /* ContentView.swift in Sources */,
 				C6705E0B2605DA9700B38A93 /* iPhone.swift in Sources */,
 				C6DCC29125F3604C0099BCD1 /* Apple_sApp.swift in Sources */,
+				C6D1C61F260749C100FEE8F2 /* iPod Home.swift in Sources */,
+				C6D1C611260746D800FEE8F2 /* iPad Home.swift in Sources */,
+				C6D1C62B26074AE700FEE8F2 /* Apple Silicon Home.swift in Sources */,
+				C6D1C62F26074B3400FEE8F2 /* OS Home.swift in Sources */,
+				C6D1C63526074C9800FEE8F2 /* Apple TV Home.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

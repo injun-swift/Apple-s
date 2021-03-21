@@ -11,7 +11,33 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             List {
-                link(icon: "iphone", text: "iPhone", destination: iPhoneHome())
+                
+                Group {
+                    link(icon: "macpro.gen3", text: "Mac", destination: MacHome())
+                    link(icon: "ipad", text: "iPad", destination: iPadHome())
+                    link(icon: "iphone", text: "iPhone", destination: iPhoneHome())
+                    link(icon: "applewatch", text: "Apple Watch", destination: AppleWatchHome())
+                    link(icon: "appletv", text: "Apple TV", destination: AppleTVHome())
+                }
+                Group {
+                    link(icon: "airpods", text: "AirPods", destination: AirPodsHome())
+                    link(icon: "ipod", text: "iPod", destination: iPodHome())
+                    NavigationLink(
+                        destination: AccessoriesHome(),
+                        label: {
+                            HStack {
+                                Image(systemName: "keyboard")
+                                    .font(.body)
+                                Text("Accessories")
+                                    .font(.body)
+                            }
+                        })
+                    link(icon: "display", text: "Display", destination: DisplayHome())
+                }
+                Group {
+                    link(icon: "cpu", text: "Apple Silicon", destination: AppleSiliconHome())
+                    link(icon: "macwindow.on.rectangle", text: "OS", destination: OSHome())
+                }
             }
             .navigationTitle("Home")
         } // NavigationView
@@ -21,6 +47,7 @@ struct ContentView: View {
             HStack {
                 Image(systemName: icon)
                     .font(.body)
+
                 Text(text)
                     .font(.body)
             }
