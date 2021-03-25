@@ -7,6 +7,7 @@
 */
 "source" = "Source: Apple";
 "Size & Weight" = "Size and Weight";
+"Capacity" = "Capacity";
 "Still in Developing" = "Still in Developing!";
 "Accessories" = "Accessories";
 
@@ -15,4 +16,5 @@
     "iPhone Width" = "Width: 2.4 inches (61 mm)";
     "iPhone Depth" = "Depth: 0.46 inch (11.6 mm)";
     "iPhone Weight" = "Weight: 4.8 ounces (135 grams)";
+    "8 GB or 16 GB flash drive" = "8 GB or 16 GB flash drive";
 //}

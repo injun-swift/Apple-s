@@ -7,6 +7,7 @@
 */
 "source" = "출처: Apple";
 "Size & Weight" = "크기 및 무게";
+"Capacity" = "용량";
 "Still in Developing" = "아직 개발 중입니다!";
 "Accessories" = "악세사리";
 
@@ -15,5 +16,6 @@
     "iPhone Width" = "가로: 61mm";
     "iPhone Depth" = "두께: 11.6mm";
     "iPhone Weight" = "무게: 135g";
+    "8 GB or 16 GB flash drive" = "8 GB 또는 16 GB 플래시 드라이브";
 //}
 

@@ -10,59 +10,69 @@ import SwiftUI
 struct iPhone : View {
     
     var body: some View {
-        GeometryReader { geometry in
-            ScrollView {
-                VStack {
-                  Text("This is only the beginning")
-                    .font(.system(.headline, design: .rounded))
-                    ZStack(alignment: .bottomTrailing) {
-                        Image("iPhone")
-                            .resizable()
-                            .scaledToFit()
-                            .padding()
-                        Text("source")
-                            .font(.system(.footnote, design: .rounded))
-                            .foregroundColor(Color.secondary)
-                            .padding(.trailing, 10)
-                    } // Product Image ZStack
-                    
-                } // Product Overview VStack
+        ScrollView {
+            VStack {
+              Text("This is only the beginning")
+                .font(.system(.headline, design: .rounded))
+                ZStack(alignment: .bottomTrailing) {
+                    Image("iPhone")
+                        .resizable()
+                        .scaledToFit()
+                        .padding()
+                    Text("source")
+                        .font(.system(.footnote, design: .rounded))
+                        .foregroundColor(Color.secondary)
+                        .padding(.trailing, 10)
+                } // Product Image ZStack
                 
-                VStack(alignment: .leading, spacing: 10) {
-                    
-                    Divider()
-                        .frame(width: geometry.size.width / 1.06)
-                    
-                    Group {
-                        Text("Size & Weight")
-                            .font(.system(.headline, design: .rounded))
-                        Text("iPhone Height")
-                            .font(.system(.body, design: .rounded))
-                        Text("iPhone Width")
-                            .font(.system(.body, design: .rounded))
-                        Text("iPhone Depth")
-                            .font(.system(.body, design: .rounded))
-                        Text("iPhone Weight")
-                            .font(.system(.body, design: .rounded))
-                    } // Size & Weight Group
-                    
-                } // About Product VStack
-                .padding()
+            } // Product Overview VStack
+            
+            VStack(alignment: .leading, spacing: 10) {
+                
+                Divider()
+                    .padding(.horizontal, 10)
                 
                 Spacer()
-                    .frame(height: 200)
+                    .frame(height: 4.5)
                 
-                Text("source")
-                    .font(.system(.footnote, design: .rounded))
-                    .foregroundColor(Color.secondary)
+                Group {
+                    Text("Size & Weight")
+                        .font(.system(.headline, design: .rounded))
+                    Text("iPhone Height")
+                        .font(.system(.body, design: .rounded))
+                    Text("iPhone Width")
+                        .font(.system(.body, design: .rounded))
+                    Text("iPhone Depth")
+                        .font(.system(.body, design: .rounded))
+                    Text("iPhone Weight")
+                        .font(.system(.body, design: .rounded))
+                } // Size & Weight Group
                 
                 Spacer()
-                    .frame(height: 25)
+                    .frame(height: 4.5)
                 
-            } // ScrollView
-            .frame(width: geometry.size.width, height: geometry.size.height, alignment: .center)
-            .navigationTitle("iPhone")
-        } // GeometryReader
+                Group {
+                    Text("Capacity")
+                        .font(.system(.headline, design: .rounded))
+                    Text("8 GB or 16 GB flash drive")
+                        .font(.system(.body, design: .rounded))
+                }
+                
+            } // About Product VStack
+            .padding()
+            
+            Spacer()
+                .frame(height: 200)
+            
+            Text("source")
+                .font(.system(.footnote, design: .rounded))
+                .foregroundColor(Color.secondary)
+            
+            Spacer()
+                .frame(height: 25)
+            
+        } // ScrollView
+        .navigationTitle("iPhone")
     }
 }
 
