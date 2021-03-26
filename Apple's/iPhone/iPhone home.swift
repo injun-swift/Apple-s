@@ -10,7 +10,7 @@ import SwiftUI
 struct iPhoneHome : View {
     var body: some View {
         List {
-            link(icon: "iphone", text: "iPhone", destination: iPhone())
+            link(icon: "iphone.homebutton", text: "iPhone", destination: iPhone())
         } // List
         .navigationTitle("iPhone")
     }
