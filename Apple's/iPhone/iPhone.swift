@@ -104,14 +104,14 @@ struct iPhone : View {
     
             Group {
                 Spacer()
-                    .frame(height: 200)
+                    .frame(height: 100)
                 
                 Text("source")
                     .font(.footnote)
                     .foregroundColor(Color.secondary)
                 
                 Spacer()
-                    .frame(height: 25)
+                    .frame(height: 30)
             } // Source Group
             
         } // ScrollView
