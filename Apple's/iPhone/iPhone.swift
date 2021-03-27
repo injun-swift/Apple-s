@@ -11,65 +11,108 @@ struct iPhone : View {
     
     var body: some View {
         ScrollView {
-            VStack {
-              Text("This is only the beginning")
-                .font(.system(.headline, design: .rounded))
-                ZStack(alignment: .bottomTrailing) {
-                    Image("iPhone")
-                        .resizable()
-                        .scaledToFit()
-                        .padding()
-                    Text("source")
-                        .font(.system(.footnote, design: .rounded))
-                        .foregroundColor(Color.secondary)
-                        .padding(.trailing, 10)
-                } // Product Image ZStack
+            Group {
+                Text("This is only the beginning")
+                    .font(.headline)
+                    .padding(.vertical, 10)
                 
-            } // Product Overview VStack
-            
-            VStack(alignment: .leading, spacing: 10) {
-                
-                Divider()
+                Image("iPhone")
+                    .resizable()
+                    .scaledToFit()
                     .padding(.horizontal, 10)
+            
+                Text("source")
+                    .font(.footnote)
+                    .foregroundColor(Color.secondary)
+                    .padding(.trailing, 10)
+                    .frame(minWidth: 0, maxWidth: .infinity, alignment: .trailing)
                 
-                Spacer()
-                    .frame(height: 4.5)
-                
+            } // Product Overview Group
+            
+            Divider()
+                .padding(.horizontal, 10)
+            
+            Group {
+                Text("First iPhone")
+                    .font(.title3)
+                    .padding(.horizontal, 15)
+                    .padding(.top, 10)
+                    .padding(.bottom, 2)
+                Text("iPhone Follow")
+                    .font(.title3)
+                    .padding(.horizontal, 15)
+                    .padding(.top, 2)
+                    .padding(.bottom, 10)
+            }
+            .frame(minWidth: 0, maxWidth: .infinity, alignment: .leading)
+            
+            Divider()
+                .padding(.horizontal, 10)
+            
+            Group {
                 Group {
                     Text("Size & Weight")
-                        .font(.system(.headline, design: .rounded))
+                        .font(.headline)
+                        .padding(.top, 10)
+                        .padding(.horizontal, 15)
                     Text("iPhone Height")
-                        .font(.system(.body, design: .rounded))
+                        .font(.body)
+                        .padding(.horizontal, 20)
+                        .padding(.vertical, 1)
                     Text("iPhone Width")
-                        .font(.system(.body, design: .rounded))
+                        .font(.body)
+                        .padding(.horizontal, 20)
+                        .padding(.vertical, 1)
                     Text("iPhone Depth")
-                        .font(.system(.body, design: .rounded))
+                        .font(.body)
+                        .padding(.horizontal, 20)
+                        .padding(.vertical, 1)
                     Text("iPhone Weight")
-                        .font(.system(.body, design: .rounded))
+                        .font(.body)
+                        .padding(.horizontal, 20)
+                        .padding(.vertical, 1)
                 } // Size & Weight Group
-                
-                Spacer()
-                    .frame(height: 4.5)
-                
+            
                 Group {
                     Text("Capacity")
-                        .font(.system(.headline, design: .rounded))
+                        .font(.headline)
+                        .padding(.top, 10)
+                        .padding(.horizontal, 15)
                     Text("8 GB or 16 GB flash drive")
-                        .font(.system(.body, design: .rounded))
-                }
+                        .font(.body)
+                        .padding(.horizontal, 20)
+                        .padding(.vertical, 1)
+                } // Capacity Gruop
                 
-            } // About Product VStack
-            .padding()
-            
-            Spacer()
-                .frame(height: 200)
-            
-            Text("source")
-                .font(.system(.footnote, design: .rounded))
-                .foregroundColor(Color.secondary)
-            
-            Spacer()
-                .frame(height: 25)
+                Group {
+                    Text("Display")
+                        .font(.headline)
+                        .padding(.top, 10)
+                        .padding(.horizontal, 15)
+                    Text("Display Size")
+                        .font(.body)
+                        .padding(.horizontal, 20)
+                        .padding(.vertical, 1)
+                    Text("Display Pixels")
+                        .font(.body)
+                        .padding(.horizontal, 20)
+                        .padding(.vertical, 1)
+                } // Display Group
+                
+            } // Product Info Group
+            .frame(minWidth: 0, maxWidth: .infinity, alignment: .leading)
+    
+            Group {
+                Spacer()
+                    .frame(height: 200)
+                
+                Text("source")
+                    .font(.footnote)
+                    .foregroundColor(Color.secondary)
+                
+                Spacer()
+                    .frame(height: 25)
+            } // Source Group
             
         } // ScrollView
         .navigationTitle("iPhone")
@@ -84,8 +127,8 @@ struct iPhone_Previews: PreviewProvider {
             .previewDevice("iPhone SE (2nd generation)")
             .environment(\.locale, .init(identifier: "ko"))
         
-//        iPhone()
-//            .previewDevice("iPad Pro (12.9-inch) (4th generation)")
+        iPhone()
+            .previewDevice("iPad Pro (12.9-inch) (4th generation)")
             
     }
 }

@@ -8,13 +8,18 @@
 "source" = "Source: Apple";
 "Size & Weight" = "Size and Weight";
 "Capacity" = "Capacity";
+"Display" = "Display";
 "Still in Developing" = "Still in Developing!";
 "Accessories" = "Accessories";
 
 //iPhone {
+    "First iPhone" = "First iPhone";
+    "iPhone Follow" = "Companies who didn't mimic the iPhone are ruined";
     "iPhone Height" = "Height: 4.5 inches (115 mm)";
     "iPhone Width" = "Width: 2.4 inches (61 mm)";
     "iPhone Depth" = "Depth: 0.46 inch (11.6 mm)";
     "iPhone Weight" = "Weight: 4.8 ounces (135 grams)";
     "8 GB or 16 GB flash drive" = "8 GB or 16 GB flash drive";
+    "Display Size" = "3.5-inch (diagonal) widescreen Multi-Touch display";
+    "Display Pixels" = "480-by-320-pixel resolution at 163 ppi";
 //}

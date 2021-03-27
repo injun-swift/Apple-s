@@ -8,14 +8,19 @@
 "source" = "출처: Apple";
 "Size & Weight" = "크기 및 무게";
 "Capacity" = "용량";
+"Display" = "디스플레이";
 "Still in Developing" = "아직 개발 중입니다!";
 "Accessories" = "악세사리";
 
 //iPhone {
+    "First iPhone" = "첫번째 아이폰";
+    "iPhone Follow" = "아이폰을 따라하지않은 회사들은 망했다";
     "iPhone Height" = "세로: 115mm";
     "iPhone Width" = "가로: 61mm";
     "iPhone Depth" = "두께: 11.6mm";
     "iPhone Weight" = "무게: 135g";
     "8 GB or 16 GB flash drive" = "8 GB 또는 16 GB 플래시 드라이브";
+    "Display Size" = "3.5형(대각선) 와이드스크린 멀티터치 디스플레이";
+    "Display Pixels" = "480 x 320 픽셀 해상도(163ppi)";
 //}
 
