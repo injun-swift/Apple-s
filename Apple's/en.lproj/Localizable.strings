@@ -6,6 +6,7 @@
   
 */
 "source" = "Source: Apple";
+"source 2" = "Source: Apple, Wiki pedia";
 "Size & Weight" = "Size and Weight";
 "Capacity" = "Capacity";
 "Display" = "Display";
@@ -16,11 +17,18 @@
 //iPhone {
     "First iPhone" = "First iPhone";
     "iPhone Follow" = "Companies who didn't mimic the iPhone are ruined";
+    "CPU spec" = "Samsung 32-bit RISC ARM 1176JZ(F)-S v1.0[3] 620 MHz Underclocked to 412 MHz";
+    "GPU spec" = "PowerVR MBX Lite 3D GPU";
     "iPhone Height" = "Height: 4.5 inches (115 mm)";
     "iPhone Width" = "Width: 2.4 inches (61 mm)";
     "iPhone Depth" = "Depth: 0.46 inch (11.6 mm)";
     "iPhone Weight" = "Weight: 4.8 ounces (135 grams)";
     "8 GB or 16 GB flash drive" = "8 GB or 16 GB flash drive";
+    "RAM spec" = "128 MB eDRAM";
     "Display Size" = "3.5-inch (diagonal) widescreen Multi-Touch display";
     "Display Pixels" = "480-by-320-pixel resolution at 163 ppi";
+    "Wireless data" = "Wireless data";
+    "Camera" = "Camera";
+    "Battery" = "Battery";
+    "Battery Size" = "3.7 V 1400 mAh Lithium-ion battery";
 //}

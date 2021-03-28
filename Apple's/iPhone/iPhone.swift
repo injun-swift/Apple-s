@@ -72,6 +72,26 @@ struct iPhone : View {
                         .padding(.horizontal, 20)
                         .padding(.vertical, 1)
                 } // Size & Weight Group
+                
+                Group {
+                    Text("CPU")
+                        .font(.headline)
+                        .padding(.top, 10)
+                        .padding(.horizontal, 15)
+                    Text("CPU spec")
+                        .font(.body)
+                        .padding(.horizontal, 20)
+                        .padding(.vertical, 1)
+                    
+                    Text("CPU")
+                        .font(.headline)
+                        .padding(.top, 10)
+                        .padding(.horizontal, 15)
+                    Text("GPU spec")
+                        .font(.body)
+                        .padding(.horizontal, 20)
+                        .padding(.vertical, 1)
+                } // Proccer Group
             
                 Group {
                     Text("Capacity")
@@ -82,7 +102,16 @@ struct iPhone : View {
                         .font(.body)
                         .padding(.horizontal, 20)
                         .padding(.vertical, 1)
-                } // Capacity Gruop
+                    
+                    Text("RAM")
+                        .font(.headline)
+                        .padding(.top, 10)
+                        .padding(.horizontal, 15)
+                    Text("RAM spec")
+                        .font(.body)
+                        .padding(.horizontal, 20)
+                        .padding(.vertical, 1)
+                } // Capacity & RAM Gruop
                 
                 Group {
                     Text("Display")
@@ -99,14 +128,64 @@ struct iPhone : View {
                         .padding(.vertical, 1)
                 } // Display Group
                 
+                Group {
+                    Text("GSM")
+                        .font(.headline)
+                        .padding(.top, 10)
+                        .padding(.horizontal, 15)
+                    Text("Quad-band (850, 900, 1800, 1900 MHz)")
+                        .font(.body)
+                        .padding(.horizontal, 20)
+                        .padding(.vertical, 1)
+                    
+                    Text("Wireless data")
+                        .font(.headline)
+                        .padding(.top, 10)
+                        .padding(.horizontal, 15)
+                    Text("Wi-Fi (802.11b/g)")
+                        .font(.body)
+                        .padding(.horizontal, 20)
+                        .padding(.vertical, 1)
+                    Text("EDGE")
+                        .font(.body)
+                        .padding(.horizontal, 20)
+                        .padding(.vertical, 1)
+                    Text("Bluetooth 2.0+EDR")
+                        .font(.body)
+                        .padding(.horizontal, 20)
+                        .padding(.vertical, 1)
+                } // GSM & Wireless data Group
+                
+                Group {
+                    Text("Camera")
+                        .font(.headline)
+                        .padding(.top, 10)
+                        .padding(.horizontal, 15)
+                    Text("2MP")
+                        .font(.body)
+                        .padding(.horizontal, 20)
+                        .padding(.vertical, 1)
+                } // Camera Group
+                
+                Group {
+                    Text("Battery")
+                        .font(.headline)
+                        .padding(.top, 10)
+                        .padding(.horizontal, 15)
+                    Text("Battery Size")
+                        .font(.body)
+                        .padding(.horizontal, 20)
+                        .padding(.vertical, 1)
+                }
+                
             } // Product Info Group
             .frame(minWidth: 0, maxWidth: .infinity, alignment: .leading)
-    
+        
             Group {
                 Spacer()
                     .frame(height: 100)
                 
-                Text("source")
+                Text("source 2")
                     .font(.footnote)
                     .foregroundColor(Color.secondary)
                 
