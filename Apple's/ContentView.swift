@@ -11,7 +11,6 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             List {
-                
                 Group {
                     link(icon: "macpro.gen3", text: "Mac", destination: MacHome())
                     link(icon: "ipad", text: "iPad", destination: iPadHome())
@@ -19,6 +18,7 @@ struct ContentView: View {
                     link(icon: "applewatch", text: "Apple Watch", destination: AppleWatchHome())
                     link(icon: "appletv", text: "Apple TV", destination: AppleTVHome())
                 }
+                
                 Group {
                     link(icon: "airpods", text: "AirPods", destination: AirPodsHome())
                     link(icon: "ipod", text: "iPod", destination: iPodHome())
@@ -28,17 +28,32 @@ struct ContentView: View {
                             HStack {
                                 Image(systemName: "keyboard")
                                     .font(.body)
+                                    .frame(width: 30, alignment: .center)
+                                
                                 Text("Accessories")
                                     .font(.body)
                             }
                         })
                     link(icon: "display", text: "Display", destination: DisplayHome())
                 }
+                
                 Group {
                     link(icon: "cpu", text: "Apple Silicon", destination: AppleSiliconHome())
-                    link(icon: "macwindow.on.rectangle", text: "OS", destination: OSHome())
+                    NavigationLink(
+                        destination: OSHome(),
+                        label: {
+                            HStack {
+                                Image(systemName: "macwindow.on.rectangle")
+                                    .font(.body)
+                                    .frame(width: 30, alignment: .center)
+                                
+                                Text("OS")
+                                    .font(.body)
+                            }
+                        })
                 }
-            }
+                
+            } // List
             .navigationTitle("Home")
         } // NavigationView
     }
@@ -47,6 +62,7 @@ struct ContentView: View {
             HStack {
                 Image(systemName: icon)
                     .font(.body)
+                    .frame(width: 30, alignment: .center)
 
                 Text(text)
                     .font(.body)

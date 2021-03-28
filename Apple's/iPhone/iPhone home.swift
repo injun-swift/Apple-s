@@ -19,6 +19,8 @@ struct iPhoneHome : View {
             HStack {
                 Image(systemName: icon)
                     .font(.body)
+                    .frame(width: 30, alignment: .center)
+                
                 Text(text)
                     .font(.body)
             }
