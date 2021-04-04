@@ -13,22 +13,32 @@
 "Still in Developing" = "Still in Developing!";
 "Accessories" = "Accessories";
 "OS" = "OS";
+"Camera" = "Camera";
+"Battery" = "Battery";
+"Color" = "Color";
+"Cellular and wireless" = "Cellular and wireless";
 
-//iPhone {
-    "First iPhone" = "First iPhone";
-    "iPhone Follow" = "Companies who didn't mimic the iPhone are ruined";
-    "CPU spec" = "Samsung 32-bit RISC ARM 1176JZ(F)-S v1.0[3] 620 MHz Underclocked to 412 MHz";
-    "GPU spec" = "PowerVR MBX Lite 3D GPU";
+// iPhone {
     "iPhone Height" = "Height: 4.5 inches (115 mm)";
     "iPhone Width" = "Width: 2.4 inches (61 mm)";
     "iPhone Depth" = "Depth: 0.46 inch (11.6 mm)";
     "iPhone Weight" = "Weight: 4.8 ounces (135 grams)";
-    "8 GB or 16 GB flash drive" = "8 GB or 16 GB flash drive";
-    "RAM spec" = "128 MB eDRAM";
-    "Display Size" = "3.5-inch (diagonal) widescreen Multi-Touch display";
-    "Display Pixels" = "480-by-320-pixel resolution at 163 ppi";
+    "CPU spec" = "Samsung 32-bit RISC ARM 1176JZ(F)-S v1.0[3] 620 MHz Underclocked to 412 MHz";
+    "GPU spec" = "PowerVR MBX Lite 3D GPU";
+    "iPhone Capacity" = "8 GB or 16 GB flash drive";
+    "iPhone RAM spec" = "128 MB eDRAM";
+    "iPhone Display Size" = "3.5-inch (diagonal) widescreen Multi-Touch display";
+    "iPhone Display Pixels" = "480-by-320-pixel resolution at 163 ppi";
     "Wireless data" = "Wireless data";
-    "Camera" = "Camera";
-    "Battery" = "Battery";
-    "Battery Size" = "3.7 V 1400 mAh Lithium-ion battery";
-//}
+    "iPhone Battery Size" = "3.7 V 1400 mAh Lithium-ion battery";
+// }
+
+// iPhone 3G {
+    "iPhone 3G Height" = "4.5 inches (115.5 mm)";
+    "iPhone 3G Width" = "2.4 inches (62.1 mm)";
+    "iPhone 3G Depth" = "0.48 inch (12.3 mm)";
+    "iPhone 3G weight" = "4.7 ounces (133 grams)";
+    "iPhone 3G 8GB model" = "8 GB model: Black";
+    "iPhone 3G 16GB model" = "16 GB model: Black or White";
+    "iPhone Display size" = "3.5-inch (diagonal) widescreen Multi-Touch display";
+// }

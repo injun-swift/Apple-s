@@ -1,13 +1,13 @@
 //
-//  iPhone.swift
+//  iPhone 3G.swift
 //  Apple's
 //
-//  Created by injun Jo on 2021/03/20.
+//  Created by injun Jo on 2021/04/04.
 //
 
 import SwiftUI
 
-struct iPhone : View {
+struct iPhone3G : View {
     
     var body: some View {
         ScrollView {
@@ -16,7 +16,7 @@ struct iPhone : View {
                     .font(.headline)
                     .padding(.vertical, 10)
                 
-                Image("iPhone")
+                Image("iPhone 3G")
                     .resizable()
                     .scaledToFit()
                     .padding(.horizontal, 10)
@@ -81,7 +81,7 @@ struct iPhone : View {
                         .font(.headline)
                         .padding(.top, 10)
                         .padding(.horizontal, 15)
-                    Text("iPhone Capacity")
+                    Text("8 GB or 16 GB flash drive")
                         .font(.body)
                         .padding(.horizontal, 20)
                         .padding(.vertical, 1)
@@ -101,11 +101,11 @@ struct iPhone : View {
                         .font(.headline)
                         .padding(.top, 10)
                         .padding(.horizontal, 15)
-                    Text("iPhone Display Size")
+                    Text("Display Size")
                         .font(.body)
                         .padding(.horizontal, 20)
                         .padding(.vertical, 1)
-                    Text("iPhone Display Pixels")
+                    Text("Display Pixels")
                         .font(.body)
                         .padding(.horizontal, 20)
                         .padding(.vertical, 1)
@@ -155,7 +155,7 @@ struct iPhone : View {
                         .font(.headline)
                         .padding(.top, 10)
                         .padding(.horizontal, 15)
-                    Text("iPhone Battery Size")
+                    Text("Battery Size")
                         .font(.body)
                         .padding(.horizontal, 20)
                         .padding(.vertical, 1)
@@ -177,20 +177,21 @@ struct iPhone : View {
             } // Source Group
             
         } // ScrollView
-        .navigationTitle("iPhone")
+        .navigationTitle("iPhone 3G")
     }
 }
 
-struct iPhone_Previews: PreviewProvider {
+struct iPhone3G_Previews: PreviewProvider {
     static var previews: some View {
-        iPhone()
+        iPhone3G()
         
-        iPhone()
+        iPhone3G()
             .previewDevice("iPhone SE (2nd generation)")
             .environment(\.locale, .init(identifier: "ko"))
         
-        iPhone()
+        iPhone3G()
             .previewDevice("iPad Pro (12.9-inch) (4th generation)")
             
     }
 }
+
