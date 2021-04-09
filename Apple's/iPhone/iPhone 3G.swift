@@ -19,7 +19,7 @@ struct iPhone3G : View {
                 Image("iPhone 3G")
                     .resizable()
                     .scaledToFit()
-                    .padding(.horizontal, 10)
+                    .padding(.horizontal)
             
                 Text("source")
                     .font(.footnote)
@@ -57,6 +57,21 @@ struct iPhone3G : View {
                 } // Size & Weight Group
                 
                 Group {
+                    Text("Color")
+                        .font(.headline)
+                        .padding(.top, 10)
+                        .padding(.horizontal, 15)
+                    Text("iPhone 3G 8GB Model")
+                        .font(.body)
+                        .padding(.horizontal, 20)
+                        .padding(.vertical, 1)
+                    Text("iPhone 3G 16GB Model")
+                        .font(.body)
+                        .padding(.horizontal, 20)
+                        .padding(.vertical, 1)
+                }
+                
+                Group {
                     Text("CPU")
                         .font(.headline)
                         .padding(.top, 10)
@@ -77,21 +92,6 @@ struct iPhone3G : View {
                 } // Proccer Group
                 
                 Group {
-                    Text("Color")
-                        .font(.headline)
-                        .padding(.top, 10)
-                        .padding(.horizontal, 15)
-                    Text("iPhone 3G 8GB Model")
-                        .font(.body)
-                        .padding(.horizontal, 20)
-                        .padding(.vertical, 1)
-                    Text("iPhone 3G 16GB Model")
-                        .font(.body)
-                        .padding(.horizontal, 20)
-                        .padding(.vertical, 1)
-                }
-            
-                Group {
                     Text("Capacity")
                         .font(.headline)
                         .padding(.top, 10)
@@ -105,7 +105,7 @@ struct iPhone3G : View {
                         .font(.headline)
                         .padding(.top, 10)
                         .padding(.horizontal, 15)
-                    Text("iPhone 3G RAM Spec")
+                    Text("iPhone 3G RAM")
                         .font(.body)
                         .padding(.horizontal, 20)
                         .padding(.vertical, 1)

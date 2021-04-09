@@ -19,7 +19,7 @@ struct iPhone : View {
                 Image("iPhone")
                     .resizable()
                     .scaledToFit()
-                    .padding(.horizontal, 10)
+                    .padding(.horizontal)
             
                 Text("source")
                     .font(.footnote)
