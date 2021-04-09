@@ -11,6 +11,7 @@ struct iPhoneHome : View {
     var body: some View {
         List {
             link(icon: "iphone.homebutton", text: "iPhone", destination: iPhone())
+            link(icon: "iphone.homebutton", text: "iPhone 3G", destination: iPhone3G())
         } // List
         .navigationTitle("iPhone")
     }

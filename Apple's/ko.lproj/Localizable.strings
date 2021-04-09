@@ -23,12 +23,32 @@
     "iPhone Width" = "가로: 61mm";
     "iPhone Depth" = "두께: 11.6mm";
     "iPhone Weight" = "무게: 135g";
-    "CPU spec" = "412 MHz로 언더클럭된 620 MHz 삼성 32비트 RISC ARM 1176JZ(F)-S v1.0";
-    "GPU spec" = "PowerVR MBX Lite 3D GPU";
-    "iPhone Capacity" = "8 GB 또는 16 GB 플래시 드라이브";
-    "iPhone RAM spec"= "128 MB eDRAM";
+    "iPhone CPU Spec" = "412MHz로 언더클럭된 620MHz 삼성 32비트 RISC ARM 1176JZ(F)-S v1.0";
+    "iPhone GPU Spec" = "PowerVR MBX Lite 3D GPU";
+    "iPhone Capacity" = "8GB 또는 16GB 플래시 드라이브";
+    "iPhone RAM Spec"= "128MB eDRAM";
     "iPhone Display Size" = "3.5형(대각선) 와이드스크린 멀티터치 디스플레이";
     "iPhone Display Pixels" = "480 x 320 픽셀 해상도(163ppi)";
     "Wireless data" = "무선 데이터";
+    "iPhone GSM" = "쿼드밴드 (850, 900, 1800, 1900MHz)";
     "iPhone Battery Size" = "일체형 리튬 이온 배터리 1,200 mAh";
 //}
+
+// iPhone 3G {
+    "iPhone 3G Height" = "세로: 115.5mm";
+    "iPhone 3G Width" = "가로: 62.1mm";
+    "iPhone 3G Depth" = "두께 12.3mm";
+    "iPhone 3G Weight" = "무게: 133g";
+    "iPhone 3G CPU Spec" = "412MHz로 언더클럭 된 620MHz 삼성 32비트 RISC ARM 1176JZ(F)-S v1.0";
+    "iPhone 3G GPU Spec" = "PowerVR MBX Lite 3D GPU";
+    "iPhone 3G Capacity" = "8GB 또는 16GB 플래시 드라이브";
+    "iPhone 3G 8GB Model" = "8GB 모델: 블랙";
+    "iPhone 3G 16GB Model" = "16 GB model: 블랙 또는 화이트";
+    "iPhone 3G Display Size" = "3.5형(대각선) 와이드스크린 멀티터치 디스플레이";
+    "iPhone 3G Display Pixels" = "480 x 320 픽셀 해상도(163 ppi)";
+    "Cellular and wireless" = "셀룰러 및 무선 통신 방식";
+    "iPhone 3G UMTS/HSDPA" = "UMTS/HSDPA (850, 1900, 2100MHz)";
+    "iPhone 3G GSM/EDGE" = "GSM/EDGE (850, 900, 1800, 1900MHz)";
+    "iPhone 3G GPS" = "GPS 지원";
+    "iPhone 3G Battery Size" = "1150 mAh, 3.7 V Lithium-ion battery";
+// }
