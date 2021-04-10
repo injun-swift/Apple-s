@@ -1,22 +1,22 @@
 //
-//  iPhone 3G.swift
+//  iPhone 3GS.swift
 //  Apple's
 //
-//  Created by injun Jo on 2021/04/04.
+//  Created by injun Jo on 2021/04/10.
 //
 
 import SwiftUI
 
-struct iPhone3G : View {
+struct iPhone3GS : View {
     
     var body: some View {
         ScrollView {
             Group {
-                Text("Twice as fast, for half the price")
+                Text("iPhone 3GS Slogan")
                     .font(.headline)
                     .padding(.vertical, 10)
                 
-                Image("iPhone 3G")
+                Image("iPhone 3GS")
                     .resizable()
                     .scaledToFit()
                     .padding(.horizontal)
@@ -38,19 +38,19 @@ struct iPhone3G : View {
                         .font(.headline)
                         .padding(.top, 10)
                         .padding(.horizontal, 15)
-                    Text("iPhone 3G Height")
+                    Text("iPhone 3GS Height")
                         .font(.body)
                         .padding(.horizontal, 20)
                         .padding(.vertical, 1)
-                    Text("iPhone 3G Width")
+                    Text("iPhone 3GS Width")
                         .font(.body)
                         .padding(.horizontal, 20)
                         .padding(.vertical, 1)
-                    Text("iPhone 3G Depth")
+                    Text("iPhone 3GS Depth")
                         .font(.body)
                         .padding(.horizontal, 20)
                         .padding(.vertical, 1)
-                    Text("iPhone 3G Weight")
+                    Text("iPhone 3GS Weight")
                         .font(.body)
                         .padding(.horizontal, 20)
                         .padding(.vertical, 1)
@@ -196,11 +196,11 @@ struct iPhone3G : View {
             } // Source Group
             
         } // ScrollView
-        .navigationTitle("iPhone 3G")
+        .navigationTitle("iPhone 3GS")
     }
 }
 
-struct iPhone3G_Previews: PreviewProvider {
+struct iPhone3GS_Previews: PreviewProvider {
     static var previews: some View {
         iPhone3G()
         

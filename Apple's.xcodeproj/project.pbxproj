@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C62C0FE42619F9690026D0CD /* iPhone 3G.swift in Sources */ = {isa = PBXBuildFile; fileRef = C62C0FE32619F9690026D0CD /* iPhone 3G.swift */; };
+		C64D9D922621A3A10009CA63 /* iPhone 3GS.swift in Sources */ = {isa = PBXBuildFile; fileRef = C64D9D912621A3A10009CA63 /* iPhone 3GS.swift */; };
 		C6705E0B2605DA9700B38A93 /* iPhone.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6705E0A2605DA9700B38A93 /* iPhone.swift */; };
 		C6A7521B26062AAD0066D211 /* iPhone home.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A7521A26062AAD0066D211 /* iPhone home.swift */; };
 		C6D1C60C260743E200FEE8F2 /* Mac Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D1C60B260743E200FEE8F2 /* Mac Home.swift */; };
@@ -29,6 +30,7 @@
 
 /* Begin PBXFileReference section */
 		C62C0FE32619F9690026D0CD /* iPhone 3G.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "iPhone 3G.swift"; sourceTree = "<group>"; };
+		C64D9D912621A3A10009CA63 /* iPhone 3GS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "iPhone 3GS.swift"; sourceTree = "<group>"; };
 		C6705E0A2605DA9700B38A93 /* iPhone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPhone.swift; sourceTree = "<group>"; };
 		C6A7521A26062AAD0066D211 /* iPhone home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "iPhone home.swift"; sourceTree = "<group>"; };
 		C6D1C60B260743E200FEE8F2 /* Mac Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Mac Home.swift"; sourceTree = "<group>"; };
@@ -187,6 +189,7 @@
 				C6A7521A26062AAD0066D211 /* iPhone home.swift */,
 				C6705E0A2605DA9700B38A93 /* iPhone.swift */,
 				C62C0FE32619F9690026D0CD /* iPhone 3G.swift */,
+				C64D9D912621A3A10009CA63 /* iPhone 3GS.swift */,
 			);
 			path = iPhone;
 			sourceTree = "<group>";
@@ -658,6 +661,7 @@
 				C6DCC29125F3604C0099BCD1 /* Apple_sApp.swift in Sources */,
 				C6D1C61F260749C100FEE8F2 /* iPod Home.swift in Sources */,
 				C6D1C611260746D800FEE8F2 /* iPad Home.swift in Sources */,
+				C64D9D922621A3A10009CA63 /* iPhone 3GS.swift in Sources */,
 				C6D1C62B26074AE700FEE8F2 /* Apple Silicon Home.swift in Sources */,
 				C62C0FE42619F9690026D0CD /* iPhone 3G.swift in Sources */,
 				C6D1C62F26074B3400FEE8F2 /* OS Home.swift in Sources */,

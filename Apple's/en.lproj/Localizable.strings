@@ -53,3 +53,14 @@
     "iPhone 3G GPS" = "Assisted GPS";
     "iPhone 3G Battery Size" = "1150 mAh, 3.7 V Lithium-ion battery";
 // }
+
+// iPhone 3GS {
+    "iPhone 3GS Slogan" = "The fastest, smartest phone yet";
+    "iPhone 3GS Height" = "Height: 4.5 inches (115.5 mm)";
+    "iPhone 3GS Width" = "Width: 2.4 inches (62.1 mm)";
+    "iPhone 3GS Depth" = "Depth: 0.48 inch (12.3 mm)";
+    "iPhone 3GS Weight" = "Weight: 4.8 ounces (135 grams)";
+    "iPhone 3GS UMTS/HSDPA" = "UMTS/HSDPA (850, 1900, 2100 MHz)";
+    "iPhone 3GS GSM/EDGE" = "GSM/EDGE (850, 900, 1800, 1900 MHz)";
+    "iPhone 3GS Bluetooth" = "Bluetooth 2.1 + EDR wireless technology";
+// }

@@ -24,7 +24,7 @@ struct iPhone : View {
                 Text("source")
                     .font(.footnote)
                     .foregroundColor(Color.secondary)
-                    .padding(.trailing, 10)
+                    .padding(.trailing, 15)
                     .frame(minWidth: 0, maxWidth: .infinity, alignment: .trailing)
                 
             } // Product Overview Group

@@ -53,3 +53,14 @@
     "iPhone 3G GPS" = "GPS 지원";
     "iPhone 3G Battery Size" = "1150 mAh, 3.7 V Lithium-ion battery";
 // }
+
+// iPhone 3GS {
+    "iPhone 3GS Slogan" = "현재까지 가장 빠르고 가장 강력한 아이폰";
+    "iPhone 3GS Height" = "세로: 115.5 mm)";
+    "iPhone 3GS Width" = "가로: 2.4 inches (62.1 mm)";
+    "iPhone 3GS Depth" = "두께: 12.3 mm";
+    "iPhone 3GS Weight" = "무게: 135g";
+    "iPhone 3GS UMTS/HSDPA" = "UMTS/HSDPA (850, 1900, 2100MHz)";
+    "iPhone 3GS GSM/EDGE" = "GSM/EDGE (850, 900, 1800, 1900MHz)";
+    "iPhone 3GS Bluetooth" = "Bluetooth 2.1 + EDR 무선 기술";
+// }
