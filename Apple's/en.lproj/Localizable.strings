@@ -17,8 +17,9 @@
 "Battery" = "Battery";
 "Color" = "Color";
 "Cellular and wireless" = "Cellular and wireless";
+"Location" = "Location";
 
-// iPhone {
+// iPhone {
     "iPhone Height" = "Height: 4.5 inches (115 mm)";
     "iPhone Width" = "Width: 2.4 inches (61 mm)";
     "iPhone Depth" = "Depth: 0.46 inch (11.6 mm)";

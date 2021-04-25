@@ -17,6 +17,7 @@
 "Battery" = "배터리";
 "Color" = "색상";
 "Cellular and wireless" = "셀룰러 및 무선 통식 방식";
+"Location" = "위치 정보";
 
 //iPhone {
     "iPhone Height" = "세로: 115mm";
