@@ -202,15 +202,10 @@ struct iPhone3GS : View {
 
 struct iPhone3GS_Previews: PreviewProvider {
     static var previews: some View {
-        iPhone3G()
+        iPhone3GS()
         
-        iPhone3G()
+        iPhone3GS()
             .previewDevice("iPhone SE (2nd generation)")
-            .environment(\.locale, .init(identifier: "ko"))
-        
-        iPhone3G()
-            .previewDevice("iPad Pro (12.9-inch) (4th generation)")
-            
     }
 }
 
