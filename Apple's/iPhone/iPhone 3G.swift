@@ -147,16 +147,7 @@ struct iPhone3G : View {
                         .font(.body)
                         .padding(.horizontal, 20)
                         .padding(.vertical, 1)
-                    
-                    Text("GPS")
-                        .font(.headline)
-                        .padding(.top, 10)
-                        .padding(.horizontal, 15)
-                    Text("iPhone 3G GPS")
-                        .font(.body)
-                        .padding(.horizontal, 20)
-                        .padding(.vertical, 1)
-                } // Cellular & Wireless & GPS Group
+                } // Cellular & Wireless
                 
                 Group {
                     Text("Camera")

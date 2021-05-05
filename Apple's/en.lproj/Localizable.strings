@@ -17,7 +17,6 @@
 "Battery" = "Battery";
 "Color" = "Color";
 "Cellular and wireless" = "Cellular and wireless";
-"Location" = "Location";
 
 // iPhone {
     "iPhone Height" = "Height: 4.5 inches (115 mm)";
@@ -64,4 +63,5 @@
     "iPhone 3GS UMTS/HSDPA" = "UMTS/HSDPA (850, 1900, 2100 MHz)";
     "iPhone 3GS GSM/EDGE" = "GSM/EDGE (850, 900, 1800, 1900 MHz)";
     "iPhone 3GS Bluetooth" = "Bluetooth 2.1 + EDR wireless technology";
+    "iPhone 3GS RAM" = "256 MB DRAM";
 // }

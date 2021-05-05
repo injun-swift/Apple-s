@@ -96,7 +96,15 @@ struct iPhone3GS : View {
                         .font(.headline)
                         .padding(.top, 10)
                         .padding(.horizontal, 15)
-                    Text("iPhone 3G Capacity")
+                    Text("8GB")
+                        .font(.body)
+                        .padding(.horizontal, 20)
+                        .padding(.vertical, 1)
+                    Text("32GB")
+                        .font(.body)
+                        .padding(.horizontal, 20)
+                        .padding(.vertical, 1)
+                    Text("64GB")
                         .font(.body)
                         .padding(.horizontal, 20)
                         .padding(.vertical, 1)
@@ -105,7 +113,7 @@ struct iPhone3GS : View {
                         .font(.headline)
                         .padding(.top, 10)
                         .padding(.horizontal, 15)
-                    Text("iPhone 3G RAM")
+                    Text("iPhone 3GS RAM")
                         .font(.body)
                         .padding(.horizontal, 20)
                         .padding(.vertical, 1)
@@ -147,16 +155,7 @@ struct iPhone3GS : View {
                         .font(.body)
                         .padding(.horizontal, 20)
                         .padding(.vertical, 1)
-                    
-                    Text("GPS")
-                        .font(.headline)
-                        .padding(.top, 10)
-                        .padding(.horizontal, 15)
-                    Text("iPhone 3G GPS")
-                        .font(.body)
-                        .padding(.horizontal, 20)
-                        .padding(.vertical, 1)
-                } // Cellular & Wireless & GPS Group
+                } // Cellular & Wireless
                 
                 Group {
                     Text("Camera")

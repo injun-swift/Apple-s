@@ -17,7 +17,6 @@
 "Battery" = "배터리";
 "Color" = "색상";
 "Cellular and wireless" = "셀룰러 및 무선 통식 방식";
-"Location" = "위치 정보";
 
 //iPhone {
     "iPhone Height" = "세로: 115mm";
@@ -64,4 +63,5 @@
     "iPhone 3GS UMTS/HSDPA" = "UMTS/HSDPA (850, 1900, 2100MHz)";
     "iPhone 3GS GSM/EDGE" = "GSM/EDGE (850, 900, 1800, 1900MHz)";
     "iPhone 3GS Bluetooth" = "Bluetooth 2.1 + EDR 무선 기술";
+    "iPhone 3GS RAM" = "256MB DRAM";
 // }
