@@ -19,6 +19,7 @@ struct iPhone : View {
                 Image("iPhone")
                     .resizable()
                     .scaledToFit()
+                    .frame(maxWidth: 500)
                     .padding(.horizontal)
             
                 Text("source")
