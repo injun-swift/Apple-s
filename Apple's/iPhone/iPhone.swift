@@ -34,6 +34,32 @@ struct iPhone : View {
             
             Group {
                 Group {
+                    Text("Capacity")
+                        .font(.headline)
+                        .padding(.top, 10)
+                        .padding(.horizontal, 15)
+                    Text("iPhone Capacity")
+                        .font(.body)
+                        .padding(.horizontal, 20)
+                        .padding(.vertical, 1)
+                } // Capacity Gruop
+                
+                Group {
+                    Text("Display")
+                        .font(.headline)
+                        .padding(.top, 10)
+                        .padding(.horizontal, 15)
+                    Text("iPhone Display Size")
+                        .font(.body)
+                        .padding(.horizontal, 20)
+                        .padding(.vertical, 1)
+                    Text("iPhone Display Pixels")
+                        .font(.body)
+                        .padding(.horizontal, 20)
+                        .padding(.vertical, 1)
+                } // Display Group
+                
+                Group {
                     Text("Size & Weight")
                         .font(.headline)
                         .padding(.top, 10)
@@ -61,7 +87,7 @@ struct iPhone : View {
                         .font(.headline)
                         .padding(.top, 10)
                         .padding(.horizontal, 15)
-                    Text("iPhone CPU Spec")
+                    Text("iPhone CPU")
                         .font(.body)
                         .padding(.horizontal, 20)
                         .padding(.vertical, 1)
@@ -70,46 +96,44 @@ struct iPhone : View {
                         .font(.headline)
                         .padding(.top, 10)
                         .padding(.horizontal, 15)
-                    Text("iPhone GPU Spec")
+                    Text("iPhone GPU")
                         .font(.body)
                         .padding(.horizontal, 20)
                         .padding(.vertical, 1)
                 } // Proccer Group
-            
+                
                 Group {
-                    Text("Capacity")
-                        .font(.headline)
-                        .padding(.top, 10)
-                        .padding(.horizontal, 15)
-                    Text("iPhone Capacity")
-                        .font(.body)
-                        .padding(.horizontal, 20)
-                        .padding(.vertical, 1)
-                    
                     Text("RAM")
                         .font(.headline)
                         .padding(.top, 10)
                         .padding(.horizontal, 15)
-                    Text("iPhone RAM Spec")
+                    Text("iPhone RAM")
                         .font(.body)
                         .padding(.horizontal, 20)
                         .padding(.vertical, 1)
-                } // Capacity & RAM Gruop
+                } // RAM Group
                 
                 Group {
-                    Text("Display")
+                    Text("Camera")
                         .font(.headline)
                         .padding(.top, 10)
                         .padding(.horizontal, 15)
-                    Text("iPhone Display Size")
+                    Text("2MP")
                         .font(.body)
                         .padding(.horizontal, 20)
                         .padding(.vertical, 1)
-                    Text("iPhone Display Pixels")
+                } // Camera Group
+            
+                Group {
+                    Text("Battery")
+                        .font(.headline)
+                        .padding(.top, 10)
+                        .padding(.horizontal, 15)
+                    Text("iPhone Battery Size")
                         .font(.body)
                         .padding(.horizontal, 20)
                         .padding(.vertical, 1)
-                } // Display Group
+                } // Battery Gruop
                 
                 Group {
                     Text("GSM")
@@ -138,29 +162,6 @@ struct iPhone : View {
                         .padding(.horizontal, 20)
                         .padding(.vertical, 1)
                 } // GSM & Wireless data Group
-                
-                Group {
-                    Text("Camera")
-                        .font(.headline)
-                        .padding(.top, 10)
-                        .padding(.horizontal, 15)
-                    Text("2MP")
-                        .font(.body)
-                        .padding(.horizontal, 20)
-                        .padding(.vertical, 1)
-                } // Camera Group
-                
-                Group {
-                    Text("Battery")
-                        .font(.headline)
-                        .padding(.top, 10)
-                        .padding(.horizontal, 15)
-                    Text("iPhone Battery Size")
-                        .font(.body)
-                        .padding(.horizontal, 20)
-                        .padding(.vertical, 1)
-                }
-                
             } // Product Info Group
             .frame(minWidth: 0, maxWidth: .infinity, alignment: .leading)
         

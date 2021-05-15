@@ -19,19 +19,19 @@
 "Cellular and wireless" = "셀룰러 및 무선 통식 방식";
 
 //iPhone {
+    "iPhone Capacity" = "8GB 또는 16GB 플래시 드라이브";
+    "iPhone Display Size" = "3.5형(대각선) 와이드스크린 멀티터치 디스플레이";
+    "iPhone Display Pixels" = "480 x 320 픽셀 해상도(163ppi)";
     "iPhone Height" = "세로: 115mm";
     "iPhone Width" = "가로: 61mm";
     "iPhone Depth" = "두께: 11.6mm";
     "iPhone Weight" = "무게: 135g";
-    "iPhone CPU Spec" = "412MHz로 언더클럭된 620MHz 삼성 32비트 RISC ARM 1176JZ(F)-S v1.0";
-    "iPhone GPU Spec" = "PowerVR MBX Lite 3D GPU";
-    "iPhone Capacity" = "8GB 또는 16GB 플래시 드라이브";
-    "iPhone RAM Spec"= "128MB eDRAM";
-    "iPhone Display Size" = "3.5형(대각선) 와이드스크린 멀티터치 디스플레이";
-    "iPhone Display Pixels" = "480 x 320 픽셀 해상도(163ppi)";
+    "iPhone CPU" = "412MHz로 언더클럭된 620MHz 삼성 32비트 RISC ARM 1176JZ(F)-S v1.0";
+    "iPhone GPU" = "PowerVR MBX Lite 3D GPU";
+    "iPhone RAM"= "128MB eDRAM";
+    "iPhone Battery Size" = "일체형 리튬 이온 배터리 1,200 mAh";
     "Wireless data" = "무선 데이터";
     "iPhone GSM" = "쿼드밴드 (850, 900, 1800, 1900MHz)";
-    "iPhone Battery Size" = "일체형 리튬 이온 배터리 1,200 mAh";
 //}
 
 // iPhone 3G {

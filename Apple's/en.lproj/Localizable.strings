@@ -19,19 +19,19 @@
 "Cellular and wireless" = "Cellular and wireless";
 
 // iPhone {
+    "iPhone Capacity" = "8 GB or 16 GB flash drive";
+    "iPhone Display Size" = "3.5-inch (diagonal) widescreen Multi-Touch display";
+    "iPhone Display Pixels" = "480-by-320-pixel resolution at 163 ppi";
     "iPhone Height" = "Height: 4.5 inches (115 mm)";
     "iPhone Width" = "Width: 2.4 inches (61 mm)";
     "iPhone Depth" = "Depth: 0.46 inch (11.6 mm)";
     "iPhone Weight" = "Weight: 4.8 ounces (135 grams)";
-    "iPhone CPU Spec" = "Samsung 32-bit RISC ARM 1176JZ(F)-S v1.0 620 MHz Underclocked to 412 MHz";
-    "iPhone GPU Spec" = "PowerVR MBX Lite 3D GPU";
-    "iPhone Capacity" = "8 GB or 16 GB flash drive";
-    "iPhone RAM Spec" = "128 MB eDRAM";
-    "iPhone Display Size" = "3.5-inch (diagonal) widescreen Multi-Touch display";
-    "iPhone Display Pixels" = "480-by-320-pixel resolution at 163 ppi";
+    "iPhone CPU" = "Samsung 32-bit RISC ARM 1176JZ(F)-S v1.0 620 MHz Underclocked to 412 MHz";
+    "iPhone GPU" = "PowerVR MBX Lite 3D GPU";
+    "iPhone RAM" = "128 MB eDRAM";
+    "iPhone Battery Size" = "3.7 V 1400 mAh Lithium-ion battery";
     "Wireless data" = "Wireless data";
     "iPhone GSM" = "Quad-band (850, 900, 1800, 1900 MHz)";
-    "iPhone Battery Size" = "3.7 V 1400 mAh Lithium-ion battery";
 // }
 
 // iPhone 3G {
