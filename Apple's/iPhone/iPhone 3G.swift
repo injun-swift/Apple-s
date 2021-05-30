@@ -197,6 +197,7 @@ struct iPhone3G_Previews: PreviewProvider {
         
         iPhone3G()
             .previewDevice("iPhone SE (2nd generation)")
+            .environment(\.locale, .init(identifier: "ko"))
     }
 }
 

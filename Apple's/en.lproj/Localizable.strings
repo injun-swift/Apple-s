@@ -20,12 +20,12 @@
 
 // iPhone {
     "iPhone Capacity" = "8 GB or 16 GB flash drive";
-    "iPhone Display Size" = "3.5-inch (diagonal) widescreen Multi-Touch display";
-    "iPhone Display Pixels" = "480-by-320-pixel resolution at 163 ppi";
     "iPhone Height" = "Height: 4.5 inches (115 mm)";
     "iPhone Width" = "Width: 2.4 inches (61 mm)";
     "iPhone Depth" = "Depth: 0.46 inch (11.6 mm)";
     "iPhone Weight" = "Weight: 4.8 ounces (135 grams)";
+    "iPhone Display Size" = "3.5-inch (diagonal) widescreen Multi-Touch display";
+    "iPhone Display Pixels" = "480-by-320-pixel resolution at 163 ppi";
     "iPhone CPU" = "Samsung 32-bit RISC ARM 1176JZ(F)-S v1.0 620 MHz Underclocked to 412 MHz";
     "iPhone GPU" = "PowerVR MBX Lite 3D GPU";
     "iPhone RAM" = "128 MB eDRAM";
@@ -35,22 +35,20 @@
 // }
 
 // iPhone 3G {
+    "iPhone 3G 8GB Model" = "8 GB model: Black";
+    "iPhone 3G 16GB Model" = "16 GB model: Black or White";
+    "iPhone 3G Capacity" = "8GB or 16GB flash drive";
     "iPhone 3G Height" = "Height: 4.5 inches (115.5 mm)";
     "iPhone 3G Width" = "Width: 2.4 inches (62.1 mm)";
     "iPhone 3G Depth" = "Depth: 0.48 inch (12.3 mm)";
     "iPhone 3G Weight" = "Weight: 4.7 ounces (133 grams)";
-    "iPhone 3G 8GB Model" = "8 GB model: Black";
-    "iPhone 3G 16GB Model" = "16 GB model: Black or White";
-    "iPhone 3G CPU Spec" = "Samsung 32-bit RISC ARM 1176JZ(F)-S v1.0 620 MHz Underclocked to 412 MH";
-    "iPhone 3G GPU Spec" = "PowerVR MBX Lite 3D GPU";
-    "iPhone 3G Capacity" = "8GB or 16GB flash drive";
-    "iPhone 3G RAM" = "128 GB eDRAM";
     "iPhone 3G Display Size" = "3.5-inch (diagonal) widescreen Multi-Touch display";
     "iPhone 3G Display Pixels" = "480-by-320-pixel resolution at 163 ppi";
-    "Cellular and wireless" = "Cullular and Wireless";
+    "iPhone 3G CPU Spec" = "Samsung 32-bit RISC ARM 1176JZ(F)-S v1.0 620 MHz Underclocked to 412 MH";
+    "iPhone 3G GPU Spec" = "PowerVR MBX Lite 3D GPU";
+    "iPhone 3G RAM" = "128 GB eDRAM";
     "iPhone 3G UMTS/HSDPA" = "UMTS/HSDPA (850, 1900, 2100 MHz)";
     "iPhone 3G GSM/EDGE" = "GSM/EDGE (850, 900, 1800, 1900 MHz)";
-    "iPhone 3G GPS" = "Assisted GPS";
     "iPhone 3G Battery Size" = "1150 mAh, 3.7 V Lithium-ion battery";
 // }
 
