@@ -47,9 +47,9 @@
     "iPhone 3G CPU Spec" = "412MHz로 언더클럭 된 620MHz 삼성 32비트 RISC ARM 1176JZ(F)-S v1.0";
     "iPhone 3G GPU Spec" = "PowerVR MBX Lite 3D GPU";
     "iPhone 3G RAM" = "128GB eDRAM";
+    "iPhone 3G Battery Size" = "1150 mAh, 3.7 V Lithium-ion battery";
     "iPhone 3G UMTS/HSDPA" = "UMTS/HSDPA (850, 1900, 2100MHz)";
     "iPhone 3G GSM/EDGE" = "GSM/EDGE (850, 900, 1800, 1900MHz)";
-    "iPhone 3G Battery Size" = "1150 mAh, 3.7 V Lithium-ion battery";
 // }
 
 // iPhone 3GS {

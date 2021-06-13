@@ -34,6 +34,32 @@ struct iPhone3G : View {
             
             Group {
                 Group {
+                    Text("Color")
+                        .font(.headline)
+                        .padding(.top, 10)
+                        .padding(.horizontal, 15)
+                    Text("iPhone 3G 8GB Model")
+                        .font(.body)
+                        .padding(.horizontal, 20)
+                        .padding(.vertical, 1)
+                    Text("iPhone 3G 16GB Model")
+                        .font(.body)
+                        .padding(.horizontal, 20)
+                        .padding(.vertical, 1)
+                } // Color Group
+                
+                Group {
+                    Text("Capacity")
+                        .font(.headline)
+                        .padding(.top, 10)
+                        .padding(.horizontal, 15)
+                    Text("iPhone 3G Capacity")
+                        .font(.body)
+                        .padding(.horizontal, 20)
+                        .padding(.vertical, 1)
+                } // Capacity Group
+                
+                Group {
                     Text("Size & Weight")
                         .font(.headline)
                         .padding(.top, 10)
@@ -57,19 +83,19 @@ struct iPhone3G : View {
                 } // Size & Weight Group
                 
                 Group {
-                    Text("Color")
+                    Text("Display")
                         .font(.headline)
                         .padding(.top, 10)
                         .padding(.horizontal, 15)
-                    Text("iPhone 3G 8GB Model")
+                    Text("iPhone 3G Display Size")
                         .font(.body)
                         .padding(.horizontal, 20)
                         .padding(.vertical, 1)
-                    Text("iPhone 3G 16GB Model")
+                    Text("iPhone 3G Display Pixels")
                         .font(.body)
                         .padding(.horizontal, 20)
                         .padding(.vertical, 1)
-                }
+                } // Display Group
                 
                 Group {
                     Text("CPU")
@@ -92,15 +118,6 @@ struct iPhone3G : View {
                 } // Proccer Group
                 
                 Group {
-                    Text("Capacity")
-                        .font(.headline)
-                        .padding(.top, 10)
-                        .padding(.horizontal, 15)
-                    Text("iPhone 3G Capacity")
-                        .font(.body)
-                        .padding(.horizontal, 20)
-                        .padding(.vertical, 1)
-                    
                     Text("RAM")
                         .font(.headline)
                         .padding(.top, 10)
@@ -109,23 +126,30 @@ struct iPhone3G : View {
                         .font(.body)
                         .padding(.horizontal, 20)
                         .padding(.vertical, 1)
-                } // Capacity & RAM Gruop
+                } // RAM Gruop
                 
                 Group {
-                    Text("Display")
+                    Text("Camera")
                         .font(.headline)
                         .padding(.top, 10)
                         .padding(.horizontal, 15)
-                    Text("iPhone 3G Display Size")
+                    Text("2MP")
                         .font(.body)
                         .padding(.horizontal, 20)
                         .padding(.vertical, 1)
-                    Text("iPhone 3G Display Pixels")
-                        .font(.body)
-                        .padding(.horizontal, 20)
-                        .padding(.vertical, 1)
-                } // Display Group
+                } // Camera Group
                 
+                Group {
+                    Text("Battery")
+                        .font(.headline)
+                        .padding(.top, 10)
+                        .padding(.horizontal, 15)
+                    Text("iPhone 3G Battery Size")
+                        .font(.body)
+                        .padding(.horizontal, 20)
+                        .padding(.vertical, 1)
+                } // Battery Group
+
                 Group {
                     Text("Cellular and wireless")
                         .font(.headline)
@@ -148,29 +172,6 @@ struct iPhone3G : View {
                         .padding(.horizontal, 20)
                         .padding(.vertical, 1)
                 } // Cellular & Wireless
-                
-                Group {
-                    Text("Camera")
-                        .font(.headline)
-                        .padding(.top, 10)
-                        .padding(.horizontal, 15)
-                    Text("2MP")
-                        .font(.body)
-                        .padding(.horizontal, 20)
-                        .padding(.vertical, 1)
-                } // Camera Group
-                
-                Group {
-                    Text("Battery")
-                        .font(.headline)
-                        .padding(.top, 10)
-                        .padding(.horizontal, 15)
-                    Text("iPhone 3G Battery Size")
-                        .font(.body)
-                        .padding(.horizontal, 20)
-                        .padding(.vertical, 1)
-                }
-                
             } // Product Info Group
             .frame(minWidth: 0, maxWidth: .infinity, alignment: .leading)
         

@@ -12,7 +12,7 @@ struct iPhoneHome : View {
         List {
             link(icon: "iphone.homebutton", text: "iPhone", destination: iPhone())
             link(icon: "iphone.homebutton", text: "iPhone 3G", destination: iPhone3G())
-            link(icon: "iphone.homebutton", text: "iPhone 3GS", destination: iPhone3GS())
+            // link(icon: "iphone.homebutton", text: "iPhone 3GS", destination: iPhone3GS())
         } // List
         .navigationTitle("iPhone")
     }
